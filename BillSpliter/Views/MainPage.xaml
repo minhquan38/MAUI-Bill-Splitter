@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BillSpliter.Views.MainPage"
+             xmlns:vm="clr-namespace:BillSpliter.ViewModels"
+             x:DataType="vm:MainPageViewModel"
+             Title="Bill Splitter">
+    <Grid>
+        <Button MaximumHeightRequest="100" MaximumWidthRequest="300" Text="Take a picture of your receipt" Command="{Binding PickImageCommand}" />
+        
+    </Grid>
+</ContentPage>
