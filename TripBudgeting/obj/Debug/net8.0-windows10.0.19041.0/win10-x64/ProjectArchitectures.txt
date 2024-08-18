@@ -1,0 +1,1 @@
+C:\Users\khuon\source\repos\TripBudgeting\TripBudgeting\TripBudgeting.csproj;x64

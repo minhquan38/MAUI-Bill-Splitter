@@ -1,0 +1,59 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TripBudgeting
+build_property.ProjectDir = C:\Users\khuon\source\repos\TripBudgeting\TripBudgeting\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/khuon/source/repos/TripBudgeting/TripBudgeting/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TripBudgeting.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/khuon/source/repos/TripBudgeting/TripBudgeting/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TripBudgeting.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/khuon/source/repos/TripBudgeting/TripBudgeting/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TripBudgeting.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/khuon/source/repos/TripBudgeting/TripBudgeting/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TripBudgeting.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/khuon/source/repos/TripBudgeting/TripBudgeting/Views/AddTripPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TripBudgeting.Views.AddTripPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddTripPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddTripPage.xaml
+
+[C:/Users/khuon/source/repos/TripBudgeting/TripBudgeting/Views/TripDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TripBudgeting.Views.TripDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TripDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TripDetailPage.xaml
+
+[C:/Users/khuon/source/repos/TripBudgeting/TripBudgeting/Views/TripListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TripBudgeting.Views.TripListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TripListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TripListPage.xaml

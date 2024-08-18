@@ -1,1 +1,0 @@
-C:\Users\khuon\source\repos\BillSpliter\BillSpliter\BillSpliter.csproj;x64

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TripBudgeting.Views.TripDetailPage"
+             xmlns:vm="clr-namespace:TripBudgeting.ViewModels"
+             x:DataType="vm:TripDetailViewModel"
+             Title="{Binding Trip.Destination}">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <Image Source="{Binding Trip.ImagePath}" 
+                       HorizontalOptions="Center"
+                       VerticalOptions="Start"
+                       Aspect="AspectFit"
+                       HeightRequest="200" />
+
+                <Label Text="Initial budget:" FontSize="Medium"/>
+                <Entry Text="{Binding InitialBudget}" Keyboard="Numeric" IsEnabled="False"/>
+
+                <Label Text="Remaining budget:" FontSize="Medium" />
+                <Label Text="{Binding RemainingBudget}" FontSize="Medium" />
+
+                <Label Text="Transportation" />
+                <Entry Text="{Binding TransportBudget, Mode=TwoWay}" Keyboard="Numeric"
+                       TextChanged="InputHandler"/>
+
+                <Label Text="Food and Drink" />
+                <Entry Text="{Binding FoodAndDrinkBudget, Mode=TwoWay}" Keyboard="Numeric"
+                       TextChanged="InputHandler"/>
+
+                <Label Text="Accommodation" />
+                <Entry Text="{Binding AccomodationBudget, Mode=TwoWay}" Keyboard="Numeric"
+                       TextChanged="InputHandler"/>
+
+                <Label Text="Shopping" />
+                <Entry Text="{Binding ShoppingBudget, Mode=TwoWay}" Keyboard="Numeric"
+                       TextChanged="InputHandler"/>
+
+                <Label Text="Tour(s)" />
+                <Entry Text="{Binding TourBudget, Mode=TwoWay}" Keyboard="Numeric"
+                       TextChanged="InputHandler"/>
+
+                <Label Text="Other" />
+                <Entry Text="{Binding OtherBudget, Mode=TwoWay}" Keyboard="Numeric"
+                       TextChanged="InputHandler"/>
+
+                <!-- Save button to save all expenses -->
+                <Button Text="Save All" Command="{Binding SaveAllExpensesCommand}"/>
+
+                <!-- Delete Trip button -->
+                <Button Text="Delete Trip" Command="{Binding DeleteTripCommand}" BackgroundColor="Red" TextColor="White"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

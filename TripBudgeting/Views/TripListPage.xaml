@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TripBudgeting.Views.TripListPage"
+             xmlns:vm="clr-namespace:TripBudgeting.ViewModels"
+             Title="TripListPage">
+    <ContentPage.BindingContext>
+        <vm:TripViewModel />
+    </ContentPage.BindingContext>
+
+    <StackLayout>
+        <RefreshView IsRefreshing="{Binding IsRefreshing}" Command="{Binding RefreshCommand}">
+            <ListView ItemsSource="{Binding Trips}" SelectedItem="{Binding SelectedTrip}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Padding="10">
+                                <Image Source="{Binding ImagePath}" HeightRequest="50" WidthRequest="50" />
+                                <StackLayout>
+                                    <Label Text="{Binding Destination}" FontSize="Large" />
+                                    <Label Text="{Binding StartDate, StringFormat='Start: {0:MM/dd/yyyy}'}" FontSize="Small" />
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </RefreshView>
+        <Button Text="Add Trip" Command="{Binding AddTripCommand}" />
+    </StackLayout>
+</ContentPage>
