@@ -36,7 +36,9 @@
 ## Small demo
   
 
-https://github.com/user-attachments/assets/28398369-f3d4-4df3-a2a4-191cacca29b0
+
+https://github.com/user-attachments/assets/51bed58b-5d00-448f-8500-e13b136a3103
+
 
 
 
@@ -93,3 +95,7 @@ Make sure you have the following installed on your local machine:
 
    ```sh
    git clone https://github.com/minhquan38/MAUI-Bill-Splitter.git
+2. **Open in your IDE**
+3. **Install nuget packages if it hasn't already been installed**
+4. **Run the project**
+   
